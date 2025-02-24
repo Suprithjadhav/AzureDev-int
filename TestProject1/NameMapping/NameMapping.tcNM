@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{A869CC24-D314-44B9-8464-74848C4DF37B}">
+				<TypeInfo Item0="{6290A5FF-2C39-4554-8D84-3F45820CD133}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{4CB7D182-D5BD-4551-93CD-7422FC20E6DB}">
+						<TypeInfo Item0="{9E604BDB-A6F3-47E3-967E-5C8B22C453BF}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageIntegrationWithAzureDevopsAn" Key="{4F5F8669-50E1-4DAD-A95C-B353E5FB25AB}">
+								<Image FileName="-1740346359" Left="11" Top="192" Right="1930" Bottom="1018" />
+								<TypeInfo Item0="{92A87B4A-44EF-4705-A22A-DCE0376206CF}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://support.smartbear.com/testcomplete/docs/working-with/integration/azure/test-adapter/requirements.html" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeTestcompleteDocumentatio" Key="{BAD8BC1A-3DF7-4D68-8D7D-46E20CD2C792}">
+										<Image FileName="-1740346359" Left="126" Top="280" Right="671" Bottom="2583" />
+										<TypeInfo Item0="{9C1B2CC4-5D93-4BE9-AA38-77385A379825}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//ul[contains(., &apos;TestComplete Documentation&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//ul[contains(@class, &apos;list-group&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tree&apos;]/ul" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeGeneralInformation" Key="{493E6C04-6705-4619-BC55-B9CCA344C78E}">
+										<Image FileName="-1740346359" Left="126" Top="322" Right="671" Bottom="365" />
+										<TypeInfo Item0="{9C1B2CC4-5D93-4BE9-AA38-77385A379825}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//li[.=&apos;General Information&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkGeneralInformation" Key="{AAF84173-5C57-4F95-A281-65A771C8FB86}">
+										<Image FileName="-1740346359" Left="188" Top="322" Right="706" Bottom="365" />
+										<TypeInfo Item0="{23B86D57-D602-454F-98C3-A59B1E5E7C4A}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//a[.=&apos;General Information&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;tree&apos;]//li[2]/a" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;sidebar-content&apos;]//ul/li[2]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{4CB7D182-D5BD-4551-93CD-7422FC20E6DB}">
+			<Child Name="pageIntegrationWithAzureDevopsAn" Owner="{4F5F8669-50E1-4DAD-A95C-B353E5FB25AB}">
+				<Child Name="textnodeTestcompleteDocumentatio" Owner="{BAD8BC1A-3DF7-4D68-8D7D-46E20CD2C792}">
+					<Child Name="textnodeGeneralInformation" Owner="{493E6C04-6705-4619-BC55-B9CCA344C78E}">
+						<Child Name="linkGeneralInformation" Owner="{AAF84173-5C57-4F95-A281-65A771C8FB86}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
