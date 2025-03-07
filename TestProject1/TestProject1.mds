@@ -32,12 +32,12 @@
 			<data />
 		</setting>
 		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
-		<setting name="AzureDevOps_CollectionID" type="5" value="" />
-		<setting name="AzureDevOps_ProjectID" type="5" value="" />
-		<setting name="AzureDevOps_ServerName" type="5" value="" />
-		<setting name="AzureDevOps_TeamProject" type="5" value="" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="{2799CC42-3F4B-407B-8E08-B24B7B095ED4}" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="vstfs:///Classification/TeamProject/68067c43-b7e3-4742-8ff0-60f0ac9efdea" />
+		<setting name="AzureDevOps_ServerName" type="5" value="https://dev.azure.com/suprithjadhav" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="Test1" />
 		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
-		<setting name="AzureDevOps_URL" type="5" value="" />
+		<setting name="AzureDevOps_URL" type="5" value="https://dev.azure.com/suprithjadhav" />
 		<setting name="BitBar_APIKey" type="5" value="" />
 		<setting name="BitBar_APIURL" type="5" value="https://cloud.bitbar.com/api/" />
 		<setting name="BitBar_FindAndroidDevice" type="5" value="( Device Group As in Selected Device )" />
@@ -189,7 +189,7 @@
 		</setting>
 		<setting name="JavaOpenApp_DoNotRecognizeChildSWTAsParent" type="1" value="False" />
 		<setting name="KeyPressingDelay" type="2" value="0" />
-		<setting name="LoadTestAPIKey" type="5" value="" />
+		<setting name="LoadTestAPIKey" type="5" value="20bdea50-8463-11ee-bf71-29378a1d6b81" />
 		<setting name="LoadTestAPIKeyLogin" type="5" value="&lt;A&gt;Login to LoadNinja&lt;/A&gt; to get your API key." />
 		<setting name="LoadTestAPIKeySales" type="5" value="Want to know more &lt;A&gt;Contact Sales&lt;/A&gt;." />
 		<setting name="LoadTestAPIKeySignup" type="5" value="&lt;A&gt;Sign up for LN trial&lt;/A&gt;." />
@@ -294,7 +294,7 @@
 			</data>
 		</setting>
 		<setting name="OpenApps_MethodInvokeTimeout" type="2" value="3000" />
-		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="11" colIndex="1">
+		<setting name="OpenApps_MSAA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
@@ -355,7 +355,7 @@
 			</columns>
 			<data />
 		</setting>
-		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="2" colIndex="1">
+		<setting name="OpenApps_UIA_ListOfAcceptedWindows" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="1" enabled="True" />
 				<column type="5" enabled="True" />
