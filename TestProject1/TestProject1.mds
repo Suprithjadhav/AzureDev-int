@@ -7,7 +7,17 @@
 	</children>
 	<config language="{90F89436-9452-4F95-9882-6B5210079F13}" />
 	<testItems key="{5006D2A7-F983-4784-BE2C-536C34CFDD30}" version="14">
-		<children />
+		<children>
+			<testItem name="Group1" key="{99912AFC-31F2-442F-8AEF-10FC9148B78C}" group="True" parallel="False" enabled="True" load="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<children />
+			</testItem>
+			<testItem name="Test1_2" key="{1FC2194F-1E40-4285-B407-A9F6F00BADF2}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{D63FE0E4-88AA-47CA-8DBA-16D172C527FC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{3F86CD90-8F7E-4C51-80CB-48010B12F56F}" />
 	<settings key="{35DDF9D0-177D-4400-8FD8-2AB372F304FC}">
