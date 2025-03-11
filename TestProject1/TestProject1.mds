@@ -15,7 +15,18 @@
 			<testItem name="Test1_2" key="{1FC2194F-1E40-4285-B407-A9F6F00BADF2}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{D63FE0E4-88AA-47CA-8DBA-16D172C527FC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
 				<environments activeCloud="SWT" />
-				<children />
+				<children>
+					<testItem name="test" key="{5E4466A4-A4AD-4444-B39B-851DBA14D14E}" group="False" parallel="False" enabled="True" load="False" testMoniker="{0C12885E-09DB-4AEB-B396-30DC53BDD107}test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+					<testItem name="Main" key="{A8C5F85F-C08A-4476-B13D-5809D2AFD251}" group="False" parallel="False" enabled="True" load="False" testMoniker="{0C12885E-09DB-4AEB-B396-30DC53BDD107}Main" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+						<testParameters />
+						<environments activeCloud="CBT" />
+						<children />
+					</testItem>
+				</children>
 			</testItem>
 		</children>
 	</testItems>
