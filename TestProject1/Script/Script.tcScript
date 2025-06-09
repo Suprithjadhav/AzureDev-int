@@ -2,5 +2,7 @@
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
 		<child name="Unit1" key="{0C12885E-09DB-4AEB-B396-30DC53BDD107}" path="Unit1.js" />
+		<child name="Unit2" key="{F53DE2E6-8610-41F4-BF25-02F4D4F653BE}" path="Unit2.js" />
+		<child name="MockupApp" key="{8D03C0E3-4B1C-4F62-924E-77539A164B08}" path="..\..\..\..\..\..\Downloads\demo_app\demo_app\MockupApp.java" />
 	</children>
 </Root>

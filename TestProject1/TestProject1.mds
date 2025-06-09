@@ -12,9 +12,13 @@
 				<testParameters />
 				<children />
 			</testItem>
-			<testItem name="Test1_2" key="{1FC2194F-1E40-4285-B407-A9F6F00BADF2}" group="False" parallel="False" enabled="True" load="False" testMoniker="KDT\{D63FE0E4-88AA-47CA-8DBA-16D172C527FC}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
+			<testItem name="Test1_2" key="{1FC2194F-1E40-4285-B407-A9F6F00BADF2}" group="False" parallel="False" enabled="True" load="False" testMoniker="{F53DE2E6-8610-41F4-BF25-02F4D4F653BE}Test1" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 				<testParameters />
-				<environments activeCloud="SWT" />
+				<environments activeCloud="LocalHeadlessBrowser">
+					<cloud name="LocalHeadlessBrowser" testedURL="">
+						<capabilities Enabled="True" Browser="Chrome" Resolution="1920x1080" CustomJSON="" />
+					</cloud>
+				</environments>
 				<children>
 					<testItem name="test" key="{5E4466A4-A4AD-4444-B39B-851DBA14D14E}" group="False" parallel="False" enabled="True" load="False" testMoniker="{0C12885E-09DB-4AEB-B396-30DC53BDD107}test" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True" lnID="{00000000-0000-0000-0000-000000000000}">
 						<testParameters />
